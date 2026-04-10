@@ -2,7 +2,12 @@
 name = "cuda-fusion"
 version = "0.1.0"
 edition = "2021"
-description = "Multi-sensor data fusion — combine readings from multiple sources with uncertainty propagation"
+description = "Multi-sensor fusion — weighted, Bayesian, median, outlier rejection"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-fusion"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
